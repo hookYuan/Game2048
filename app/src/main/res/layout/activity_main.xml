@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.yuanye.gameapplication.MainActivity">
+    tools:context="yuan.game2048.MainActivity">
 
     <TextView
         android:id="@+id/tv_score"
@@ -17,10 +17,10 @@
         android:textSize="22sp"
         android:textStyle="bold" />
 
-    <com.yuanye.gameapplication.draw.GameView
+    <yuan.game2048.draw.GameView
         android:id="@+id/gameView"
-        android:layout_width="300dp"
-        android:layout_height="300dp" />
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
 
     <Button
         android:id="@+id/btn_reStart"

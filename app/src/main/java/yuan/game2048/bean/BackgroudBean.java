@@ -1,6 +1,4 @@
-package com.yuanye.gameapplication.bean;
-
-import android.support.annotation.Dimension;
+package yuan.game2048.bean;
 
 /**
  * Created by YuanYe on 2017/6/17.

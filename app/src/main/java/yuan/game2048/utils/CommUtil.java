@@ -1,4 +1,4 @@
-package com.yuanye.gameapplication.utils;
+package yuan.game2048.utils;
 
 /**
  * Created by YuanYe on 2017/6/17.

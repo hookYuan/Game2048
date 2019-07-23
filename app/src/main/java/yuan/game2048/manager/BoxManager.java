@@ -1,7 +1,7 @@
-package com.yuanye.gameapplication.manager;
+package yuan.game2048.manager;
 
-import com.yuanye.gameapplication.bean.BackgroudBean;
-import com.yuanye.gameapplication.bean.BoxBean;
+import yuan.game2048.bean.BackgroudBean;
+import yuan.game2048.bean.BoxBean;
 
 import java.util.ArrayList;
 import java.util.List;

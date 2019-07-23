@@ -1,23 +1,21 @@
-package com.yuanye.gameapplication.draw;
+package yuan.game2048.draw;
 
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
-import android.graphics.SurfaceTexture;
 import android.support.annotation.Nullable;
-import android.text.method.Touch;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.yuanye.gameapplication.bean.BackgroudBean;
-import com.yuanye.gameapplication.bean.BoxBean;
-import com.yuanye.gameapplication.control.TouchControl;
-import com.yuanye.gameapplication.manager.BoxManager;
-import com.yuanye.gameapplication.utils.CommUtil;
+import yuan.game2048.bean.BackgroudBean;
+import yuan.game2048.bean.BoxBean;
+import yuan.game2048.control.TouchControl;
+import yuan.game2048.manager.BoxManager;
+import yuan.game2048.utils.CommUtil;
 
 /**
  * Created by YuanYe on 2017/6/16.

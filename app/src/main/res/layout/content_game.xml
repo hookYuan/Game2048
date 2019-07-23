@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    tools:context="com.yuanye.gameapplication.GameActivity"
+    tools:context="yuan.game2048.GameActivity"
     tools:showIn="@layout/app_bar_game">
 
 
-    <com.yuanye.gameapplication.draw.GameView
+    <yuan.game2048.draw.GameView
         android:layout_width="300dp"
         android:layout_height="300dp"
         />

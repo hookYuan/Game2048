@@ -1,7 +1,7 @@
-package com.yuanye.gameapplication.bean;
+package yuan.game2048.bean;
 
-import com.yuanye.gameapplication.utils.ColorUtil;
-import com.yuanye.gameapplication.utils.CommUtil;
+import yuan.game2048.utils.ColorUtil;
+import yuan.game2048.utils.CommUtil;
 
 /**
  * Created by YuanYe on 2017/6/16.

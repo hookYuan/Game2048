@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GameApplication</string>
+    <string name="app_name">Game2048</string>
     <string name="title_activity_game">GameActivity</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>

@@ -1,15 +1,17 @@
-package com.yuanye.gameapplication;
+package yuan.game2048;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
-import com.yuanye.gameapplication.draw.GameView;
+import yuan.game2048.draw.GameView;
 
 /**
- * 游戏界面
+ * 描述：游戏界面
+ *
+ * @author yuanye
+ * @date 2019/7/23 14:02
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -25,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         gameView.setOnStepListener(new GameView.OnStepListener() {
             @Override
             public void onStep() {
-                tvScore.setText(gameView.getScore() + "   分");
+                tvScore.setText("获得" + gameView.getScore() + "   分");
             }
         });
     }
@@ -35,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.btn_reStart: //重新开始游戏
                 gameView.startGame();
-                tvScore.setText("0  分");
+                tvScore.setText("获得 0  分");
                 break;
         }
     }

@@ -1,6 +1,4 @@
-package com.yuanye.gameapplication.utils;
-
-import android.util.Log;
+package yuan.game2048.utils;
 
 /**
  * Created by YuanYe on 2017/6/16.

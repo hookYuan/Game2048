@@ -1,9 +1,7 @@
-package com.yuanye.gameapplication.control;
+package yuan.game2048.control;
 
-import android.util.Log;
-
-import com.yuanye.gameapplication.bean.BoxBean;
-import com.yuanye.gameapplication.manager.BoxManager;
+import yuan.game2048.bean.BoxBean;
+import yuan.game2048.manager.BoxManager;
 
 import java.util.Random;
 

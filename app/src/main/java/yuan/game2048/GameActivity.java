@@ -1,4 +1,4 @@
-package com.yuanye.gameapplication;
+package yuan.game2048;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
