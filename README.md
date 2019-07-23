@@ -8,6 +8,6 @@
 
 ## 下载地址
 
-[apk下载地址](https://github.com/hookYuan/Game2048/blob/master/image/game2048.apk)
+[apk下载地址](https://gitee.com/hookyuan/Game2048/blob/master/image/game2048.apk)
 
 
